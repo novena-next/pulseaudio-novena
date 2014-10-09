@@ -1,0 +1,9 @@
+pulseaudio-novena for Debian
+----------------------------
+
+Contains pulseaudio config files to enable headphone detection on Novena.
+Build with "git-buildpackage --git-upstream-tag=[tag]" where tag is an
+upstream tag name, such as v1.0.
+
+ -- Sean Cross <xobs@kosagi.com>  Wed, 01 Oct 2014 16:39:42 +0800
+

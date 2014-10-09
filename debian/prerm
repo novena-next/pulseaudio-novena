@@ -1,0 +1,10 @@
+#!/bin/sh
+set -e
+PKG=pulseaudio-novena
+if [ "$1" = remove ] ; then
+	[ -L /etc/pulse/default.pa ] && rm /etc/pulse/default.pa
+	dpkg-divert --remove --package ${PKG} --rename \
+		--divert /etc/pulse/default.pa.distrib /etc/pulse/default.pa
+fi
+#DEBHELPER#
+exit 0

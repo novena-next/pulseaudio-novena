@@ -1,0 +1,7 @@
+/debian/files
+/debian/pulseaudio-novena.debhelper.log
+/debian/pulseaudio-novena.substvars
+/debian/pulseaudio-novena/
+*.swp
+*.swo
+*~

@@ -1,0 +1,14 @@
+Source: pulseaudio-novena
+Section: sound
+Priority: optional
+Maintainer: Sean Cross <xobs@kosagi.com>
+Build-Depends: debhelper (>= 9), pulseaudio (>= 4)
+Standards-Version: 3.9.5
+Homepage: http://kosagi.com/
+
+Package: pulseaudio-novena
+Architecture: all
+Depends: ${misc:Depends}
+Description: Pulse Audio configuration files for Novena
+ Pulse Audio path and profile set for Kosagi Novena, enabling headphone
+ detection.

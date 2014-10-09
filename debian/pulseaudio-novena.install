@@ -1,0 +1,5 @@
+etc/pulse/novena.pa
+lib/udev/rules.d/91-pulseaudio-novena.rules
+usr/share/pulseaudio/alsa-mixer/profile-sets/kosagi-novena.conf
+usr/share/pulseaudio/alsa-mixer/paths/analog-output-headphones-novena.conf
+usr/share/pulseaudio/alsa-mixer/paths/analog-output-speaker-novena.conf

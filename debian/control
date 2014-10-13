@@ -3,7 +3,7 @@ Section: sound
 Priority: optional
 Maintainer: Sean Cross <xobs@kosagi.com>
 Build-Depends: debhelper (>= 9), pulseaudio (>= 4)
-Standards-Version: 3.9.5
+Standards-Version: 3.9.6
 Homepage: http://kosagi.com/
 
 Package: pulseaudio-novena

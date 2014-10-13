@@ -1,0 +1,4 @@
+pulseaudio-novena: script-not-executable etc/pulse/novena.pa
+pulseaudio-novena: diversion-for-unknown-file etc/pulse/default.pa postinst:6
+pulseaudio-novena: file-in-etc-not-marked-as-conffile etc/pulse/novena.pa
+pulseaudio-novena: unusual-interpreter etc/pulse/novena.pa #!/usr/bin/pulseaudio

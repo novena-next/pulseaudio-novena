@@ -1,10 +1,10 @@
 Source: pulseaudio-novena
 Section: sound
 Priority: optional
-Maintainer: Sean Cross <xobs@kosagi.com>
+Maintainer: Jookia <contact@jookia.org>
 Build-Depends: debhelper (>= 9), pulseaudio (>= 4)
 Standards-Version: 3.9.6
-Homepage: http://kosagi.com/
+Homepage: https://github.com/novena-next/pulseaudio-novena
 
 Package: pulseaudio-novena
 Architecture: all

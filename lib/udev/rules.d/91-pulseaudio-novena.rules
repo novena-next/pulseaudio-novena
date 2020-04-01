@@ -18,6 +18,6 @@ SUBSYSTEM!="sound", GOTO="pulseaudio_end"
 ACTION!="change", GOTO="pulseaudio_end"
 KERNEL!="card*", GOTO="pulseaudio_end"
 
-ATTRS{id}=="imxaudioes8328", ENV{PULSE_PROFILE_SET}="kosagi-novena.conf"
+ATTRS{id}=="imxaudioes8328|es8328audio", ENV{PULSE_PROFILE_SET}="kosagi-novena.conf"
 
 LABEL="pulseaudio_end"

@@ -17,7 +17,6 @@ binary-indep:
 	dh_compress
 	dh_fixperms
 	dh_installdeb
-	rm debian/pulseaudio-novena/DEBIAN/conffiles
 	dh_gencontrol
 	dh_md5sums
 	dh_builddeb
